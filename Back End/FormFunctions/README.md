@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-This is a website developed for project name called "Form", which developed during [Udacity's Intro to Backend Course](https://www.udacity.com/course/intro-to-backend--ud171).
+This is a website developed for project name called "Form", which developed during [Udacity's Intro to Backend Course](https://www.udacity.com/course/intro-to-backend--ud171) Lesson 3 (Forms and Inputs).
 
 ## Deployment
 
