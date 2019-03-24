@@ -1,0 +1,5 @@
+resources:
+- name: [RESOURCE_NAME]
+  type: [RESOURCE_TYPE]
+  properties:
+    #RESOURCE properties go here
