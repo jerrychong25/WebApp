@@ -1,0 +1,19 @@
+imports: 
+- path: network-template.jinja
+- path: subnetwork-template.jinja
+- path: firewall-template.jinja
+
+resources:
+- name: custom-net
+  type: network-template.jinja
+- name: custom-subnet
+  type: subnetwork-template.jinja
+  properties:
+    ipCidrRange: 10.10.0.0/16
+    network: $(ref.custom-net.selfLink)
+    region: us-central1
+- name: custom
+  type: firewall-template.jinja
+  properties: 
+    network: $(ref.custom-net.selfLink)
+    IPProtocol: TCP
