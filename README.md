@@ -14,4 +14,4 @@ TBC
 
 ## Authors
 
-**Chong Hon Fong** - [jerrychong25](https://github.com/jerrychong25)
+**Jerry Chong** - [jerrychong25](https://github.com/jerrychong25)
